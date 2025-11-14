@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #0066cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#produtos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.produto {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.2s ease;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.preco {
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #0066cc;
+    font-size: 1.2em;
+}
+
+button {
+    background: #0066cc;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #004a99;
+}
+
+#contato {
+    background: #e1e1e1;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
